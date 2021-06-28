@@ -1,12 +1,12 @@
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-html{
+html {
   font-size: 62.5%;
 }
-header{
+header {
   padding: 25px;
   position: absolute;
   display: flex;
@@ -14,8 +14,8 @@ header{
   width: 100%;
 }
 
-.Title{
-  font-family: 'Fraunces', serif;
+.Title {
+  font-family: "Fraunces", serif;
   position: absolute;
   width: 100%;
   text-align: center;
@@ -26,15 +26,13 @@ header{
   letter-spacing: 7px;
 }
 
-.Arrow{
+.Arrow {
   position: absolute;
   top: 345px;
 
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
-
 
 /* .FirstImageContainer{
   width: 100%;
@@ -43,10 +41,47 @@ header{
 } */
 
 .FirstImage,
-.SecondImage
-{
+.SecondImage,
+.FourthImage {
   width: 100%;
   display: block;
 }
+.ThirdSection,
+.FourthSection {
+  padding: 0 25px;
+}
+.ThirdSectionTitle,
+.FourthSectionTitle {
+  font-family: "Fraunces", serif;
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 60px;
+}
 
+.ThirdSectionDescription,
+.FourthSectionDescription {
+  margin-top: 20px;
+  color: hsl(210, 4%, 67%);
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: "Barlow", serif;
+  line-height: 1.6;
+}
 
+.ThirdSectionLink,
+.FourthSectionLink {
+  display: block;
+  margin-top: 35px;
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: "Fraunces", serif;
+  margin-bottom: 65px;
+  text-decoration: underline;
+  text-decoration-color: hsla(51, 100%, 49%, 0.404);
+  text-decoration-thickness: 7px;
+}
+
+.FourthSectionLink {
+  text-decoration-color: hsl(7, 99%, 70%, 0.404);
+}
