@@ -42,7 +42,8 @@ header {
 
 .FirstImage,
 .SecondImage,
-.FourthImage {
+.FourthImage,
+.FifthImage {
   width: 100%;
   display: block;
 }
@@ -84,4 +85,32 @@ header {
 
 .FourthSectionLink {
   text-decoration-color: hsl(7, 99%, 70%, 0.404);
+}
+
+.FifthSection {
+  position: relative;
+}
+
+.FifthSectionTitle {
+  font-size: 3rem;
+  font-family: "Fraunces", serif;
+  position: absolute;
+  color: hsl(167, 40%, 24%);
+  top: 400px;
+  text-align: center;
+  font-weight: 900;
+  width: 100%;
+}
+
+.FifthSectionDescription {
+  font-size: 1.6rem;
+  font-family: "Barlow", serif;
+  position: absolute;
+  color: hsl(167, 40%, 24%);
+  top: 450px;
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+  font-weight: bold;
+  line-height: 1.6;
 }
