@@ -43,7 +43,8 @@ header {
 .FirstImage,
 .SecondImage,
 .FourthImage,
-.FifthImage {
+.FifthImage,
+.SixthImage {
   width: 100%;
   display: block;
 }
@@ -87,11 +88,13 @@ header {
   text-decoration-color: hsl(7, 99%, 70%, 0.404);
 }
 
-.FifthSection {
+.FifthSection,
+.SixthSection {
   position: relative;
 }
 
-.FifthSectionTitle {
+.FifthSectionTitle,
+.SixthSectionTitle {
   font-size: 3rem;
   font-family: "Fraunces", serif;
   position: absolute;
@@ -102,7 +105,12 @@ header {
   width: 100%;
 }
 
-.FifthSectionDescription {
+.SixthSectionTitle {
+  color: hsl(198, 62%, 26%);
+}
+
+.FifthSectionDescription,
+.SixthSectionDescription {
   font-size: 1.6rem;
   font-family: "Barlow", serif;
   position: absolute;
@@ -113,4 +121,57 @@ header {
   padding: 15px;
   font-weight: bold;
   line-height: 1.6;
+}
+
+.SixthSectionDescription {
+  color: hsl(198, 62%, 26%);
+}
+
+.SeventhSection {
+  padding-bottom: 100px;
+}
+
+.TestimonialTitle {
+  font-family: "Fraunces", serif;
+  color: #aaaaa7;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 60px;
+  letter-spacing: 4px;
+}
+
+.TestimonialImg {
+  border-radius: 50%;
+  width: 65px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.TestimonialDescription {
+  font-family: "Barlow", serif;
+  font-size: 1.7rem;
+  color: #797777;
+  text-align: center;
+  margin-top: 30px;
+  padding: 0 30px;
+  line-height: 1.6;
+}
+
+.TestimonialName {
+  font-family: "Fraunces", serif;
+  margin-top: 25px;
+  font-size: 1.7rem;
+  text-align: center;
+  color: #374a5e;
+  font-weight: 900;
+}
+
+.TestimonialPosition {
+  font-family: "Barlow", serif;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 10px;
+  color: #aaaaa7;
+  font-weight: 400;
 }
